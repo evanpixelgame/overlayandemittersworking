@@ -1,0 +1,9 @@
+List of methods able to be used:
+**********************************************************************************************************
+
+example of event listener for when a scene resumes: 
+
+this.events.on('resume', () => {
+            console.log('OpenWorld has been resumed!');
+           this.scene.launch('PlayerControls', { player: this.player });
+        });  
